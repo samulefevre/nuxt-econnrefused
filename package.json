@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.13.1",
+    "@nuxt/image": "^1.7.0",
+    "@nuxthub/core": "^0.7.1",
+    "drizzle-orm": "^0.32.0",
+    "nuxt": "^3.12.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.23.0",
+    "wrangler": "^3.64.0"
+  }
+}
